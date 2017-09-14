@@ -1,0 +1,55 @@
+---
+title: "Stat 297 Homework 1"
+author: "Aaron Wilhelm, Dylan Shoemaker, Henry Lin"
+date: "September 14, 2017"
+output: 
+  html_document:
+    theme: cerulean
+    highlight: tango
+---
+
+## Introduction
+
+Hello everyone! This assignment is primarily focusing on introducing multiple components of R and utilizing the RStudio application. In this homework, we will be demonstrating loading a video, introducing the team members using photos and summaries, uploading a table of classes this semester, using random table to create a histogram and making the data customizable. So enough talking, lets get started!
+
+## Group Members
+
+<center>![Aaron Wilhelm](https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAhZAAAAJDVhZDMyYWJkLWJjNDgtNGEyZi1hOGIwLTM3ZDQwNGQ3MDRhYw.jpg){width=50%}
+
+## Aaron Wilhelm
+
+Aaron is a Junior studying Applied Data Sciences with a minor in Security and Risk Analysis. He enjoys plunging into caves with the Nittany Grotto Team and playing percussion with the Penn State Pep Band. An interesting fact about Aaron is that he is an Eagle Scout. 
+
+>"The Universe is big. It's vast and complicated and ridiculous. And sometimes, very rarely, impossible things just happen and we call them miracles." - David Tennant
+
+## Class Schedule
+
+
++---------------+--------------------+
+| Classes       | Times              |
++===============+====================+
+|               |                    |
+| STAT 297      |  TR 12:05 - 1:20pm |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| DS 330        |  MW 2:30 - 3:45pm  |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| IST 230       |  MWF 1:25 - 2:15pm |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| STAT 318      | MWF 9:05 - 9:55am  |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| DS 220        | TR 10:35 - 11:50am |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| SRA 231       | TR 3:05 - 4:20pm   |
+|               |                    |
++---------------+--------------------+
+
