@@ -53,3 +53,42 @@ Aaron is a Junior studying Applied Data Sciences with a minor in Security and Ri
 |               |                    |
 +---------------+--------------------+
 
+<center>![Dylan Shoemaker](http://personal.psu.edu/dbs5306/EDSGN%20100%20Website%20Picture.png){width=50%}
+
+## Dylan Shoemaker
+
+Dylan is a sophomore studying Computational Data science and Applied Statistics. He enjoys sports and outdoor activities like hiking and boating. 
+
+
+>"Get busy living or get busy dying." - Tim Robbins; The Shawshank Redemption
+
+## Class Schedule
+
+
++---------------+--------------------+
+| Classes       | Times              |
++===============+====================+
+|               |                    |
+| STAT 297      |  TR 12:05 - 1:20pm |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| STAT 415      |  MWF 9:00 - 9:55am |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| STAT 416      |  MWF 1:25 - 2:15pm |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| STAT 461      |  MWF 3:35 - 4:25pm |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| DS 220        | TR 10:35 - 11:50am |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| CAS 100B      | TR 1:35 - 2:50pm   |
+|               |                    |
++---------------+--------------------+
