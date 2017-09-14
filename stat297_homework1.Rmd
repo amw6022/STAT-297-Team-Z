@@ -16,7 +16,7 @@ Hello everyone! This assignment is primarily focusing on introducing multiple co
 
 <center>![Aaron Wilhelm](https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAhZAAAAJDVhZDMyYWJkLWJjNDgtNGEyZi1hOGIwLTM3ZDQwNGQ3MDRhYw.jpg){width=50%}
 
-## Aaron Wilhelm
+## Aaron
 
 Aaron is a Junior studying Applied Data Sciences with a minor in Security and Risk Analysis. He enjoys plunging into caves with the Nittany Grotto Team and playing percussion with the Penn State Pep Band. An interesting fact about Aaron is that he is an Eagle Scout. 
 
