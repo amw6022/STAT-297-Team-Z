@@ -12,6 +12,9 @@ output:
 
 Hello everyone! This assignment is primarily focusing on introducing multiple components of R and utilizing the RStudio application. In this homework, we will be demonstrating loading a video, introducing the team members using photos and summaries, uploading a table of classes this semester, using random table to create a histogram and making the data customizable. So enough talking, lets get started!
 
+Video:
+<center><iframe width="315" height="420" src="C:\Users\Owner\Downloads\20170914_211543" frameboarder="0"></iframe>
+
 ## Group Members
 
 <center>![Aaron Wilhelm](https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAhZAAAAJDVhZDMyYWJkLWJjNDgtNGEyZi1hOGIwLTM3ZDQwNGQ3MDRhYw.jpg){width=50%}
@@ -53,3 +56,91 @@ Aaron is a Junior studying Applied Data Sciences with a minor in Security and Ri
 |               |                    |
 +---------------+--------------------+
 
+<center>![Dylan Shoemaker](http://personal.psu.edu/dbs5306/EDSGN%20100%20Website%20Picture.png){width=50%}
+
+## Dylan
+
+Dylan is a sophomore studying Computational Data Science and Applied Statistics. He enjoys sports and outdoor activities like hiking and boating. 
+
+>"Get busy living or get busy dying." - Tim Robbins, 'The Shawshank Redemption'
+
+## Class Schedule
+
+
++---------------+--------------------+
+| Classes       | Times              |
++===============+====================+
+|               |                    |
+| STAT 297      |  TR 12:05 - 1:20pm |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| STAT 415      |  MW  9:05 - 9:55am |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| STAT 461      |  MWF 3:35 - 4:25pm |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| STAT 416      | MWF  1:25 - 2:15pm |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| DS 220        | TR 10:35 - 11:50am |
+|               |                    |
++---------------+--------------------+
+|               |                    |
+| CAS 100B      | TR  1:35 - 2:50pm  |
+|               |                    |
++---------------+--------------------+
+
+
+```{r}
+x=rnorm(100, 0, 1)
+(med = median(x))
+(avg = mean(x))
+(variance = var(x))
+```
+ 
+These results are fairly close to the thoretical values, but not exact. I am not surprised by this since the random sampling from the normal distribution causes random variation in the data. 
+
+```{r fig.cap='Standard Normal Random Variables'}
+hist(x)
+```
+
+Relevant equation:
+$\begin{aligned}
+     \mathbb{E} \left[ \text{var} \left\{
+                     \boldsymbol{v}_1\left(
+                       \hat{\boldsymbol{\theta}},n\right) \big|
+                     \hat{\boldsymbol{\theta}} \right\}  \right] 
+&=
+                 \text{var} \left\{ \mathbf{v}_1\left(
+                     \boldsymbol{\theta}_0,n\right)  \right\}  +
+                 \mathbb{E} \left[\mathcal{O}_p\left\{
+{\bf D}_1(\boldsymbol{\theta}^*,n)(\hat{\boldsymbol{\theta}} - \boldsymbol{\theta}_{0}), 
+\dots,
+{\bf D}_p(\boldsymbol{\theta}^*,n)(\boldsymbol{\theta} - \boldsymbol{\theta}_{0})
+\right\}\right]\\
+    &= \text{var} \left\{ \mathbf{v}_1\left( \boldsymbol{\theta}_0,n\right)  \right\}  + \mathcal{O}\left(n^{-2}\right).
+\end{aligned}$
+
+In-line equation: $\mathbf{A} \equiv \left[a_{i,j}\right]_{i,j = 1, \ldots, p}$
+
+Colorful text: <span style='color:blue'>"Vérité dans un temps, erreur dans un autre.", Charles de Montesquieu</span>
+
+<style>
+div.blue pre { background-color:lightblue; }
+div.blue pre.r { background-color:lightblue; }
+</style>
+
+<div class = 'blue'>
+```{r eval=FALSE}
+This is a colorful chunk of text!
+```
+</div>
+
+<button data-toggle="collapse" data-target="#demo">
+More info
+</button>
